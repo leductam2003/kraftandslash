@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <title>Kraft &amp; Slash by Pure Jam Games, Kotocca, A Good Wobble</title>
+  <link href="./assets/game.css" rel="stylesheet">
+  <link href="./assets/redactor.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  <style type="text/css" id="game_theme">
+    :root {
+      --itchio_ui_bg: #585858;
+      --itchio_ui_bg_dark: #525252
+    }
+    .ubuntu-bold-italic {
+      font-family: "Ubuntu", sans-serif;
+      font-weight: 700;
+      font-style: italic;
+    }
+
+    .permanent-marker-regular {
+      font-family: "Permanent Marker", cursive;
+      font-weight: 400;
+      font-style: normal;
+    }
+
+    .wrapper {
+      --itchio_font_family: Comfortaa;
+      --itchio_bg_color: #eeeeee;
+      --itchio_bg2_color: rgba(199, 219, 169, 0);
+      --itchio_bg2_sub: #b2c694;
+      --itchio_text_color: #6b4e2b;
+      --itchio_link_color: #1d8883;
+      --itchio_border_color: #a2bc7b;
+      --itchio_button_color: #1d8883;
+      --itchio_button_fg_color: #ffffff;
+      --itchio_button_shadow_color: #339e99;
+      background-color: #eeeeee;
+      /*! */
+      background-image: url(https://img.itch.zone/aW1nLzIzNjAzMzYucG5n/original/U63Q%2BQ.png);
+      ;
+      background-repeat: repeat;
+      background-position: 50% 0;
+      /* */
+    }
+
+    .inner_column {
+      color: #6b4e2b;
+      font-family: Comfortaa, Lato, LatoExtended, sans-serif;
+      background-color: rgba(199, 219, 169, 0)
+    }
+
+    .inner_column ::selection {
+      color: #ffffff;
+      background: #1d8883
+    }
+
+    .inner_column ::-moz-selection {
+      color: #ffffff;
+      background: #1d8883
+    }
+
+    .inner_column h1,
+    .inner_column h2,
+    .inner_column h3,
+    .inner_column h4,
+    .inner_column h5,
+    .inner_column h6 {
+      font-weight: bold;
+      color: inherit
+    }
+
+    .inner_column a,
+    .inner_column .footer a {
+      color: #1d8883
+    }
+
+    .inner_column .button,
+    .inner_column .button:hover,
+    .inner_column .button:active {
+      background-color: #1d8883;
+      color: #ffffff;
+      text-shadow: 0 1px 0px #339e99
+    }
+
+    .inner_column hr {
+      background-color: #a2bc7b
+    }
+
+    .inner_column table {
+      border-color: #a2bc7b
+    }
+
+    .inner_column .redactor-box .redactor-toolbar li a {
+      color: #1d8883
+    }
+
+    .inner_column .redactor-box .redactor-toolbar li a:hover,
+    .inner_column .redactor-box .redactor-toolbar li a:active,
+    .inner_column .redactor-box .redactor-toolbar li a.redactor-act {
+      background-color: #1d8883 !important;
+      color: #ffffff !important;
+      text-shadow: 0 1px 0px #339e99 !important
+    }
+
+    .inner_column .redactor-box .redactor-toolbar .re-button-tooltip {
+      text-shadow: none
+    }
+
+    .game_frame {
+      background: #b2c694;
+      /*! */
+      /* */
+    }
+
+    .game_frame .embed_info {
+      background-color: rgba(199, 219, 169, 0.85)
+    }
+
+    .game_loading .loader_bar .loader_bar_slider {
+      background-color: #1d8883
+    }
+
+    .view_game_page .reward_row,
+    .view_game_page .bundle_row {
+      border-color: #b2c694 !important
+    }
+
+    .view_game_page .game_info_panel_widget {
+      background: rgba(178, 198, 148, 0)
+    }
+
+    .view_game_page .star_value .star_fill {
+      color: #1d8883
+    }
+
+    .view_game_page .rewards .quantity_input {
+      background: rgba(226, 233, 214, 0);
+      border-color: rgba(107, 78, 43, 0.5);
+      color: #6b4e2b
+    }
+
+    .view_game_page .right_col {
+      display: block
+    }
+
+    .game_devlog_page li .meta_row .post_likes {
+      border-color: #b2c694
+    }
+
+    .game_devlog_post_page .post_like_button {
+      box-shadow: inset 0 0 0 1px #a2bc7b
+    }
+
+    .game_comments_widget .community_post .post_footer a,
+    .game_comments_widget .community_post .post_footer .vote_btn,
+    .game_comments_widget .community_post .post_header .post_date a,
+    .game_comments_widget .community_post .post_header .edit_message {
+      color: rgba(107, 78, 43, 0.5)
+    }
+
+    .game_comments_widget .community_post .reveal_full_post_btn {
+      background: linear-gradient(to bottom, transparent, #c7dba9 50%, #c7dba9);
+      color: #1d8883
+    }
+
+    .game_comments_widget .community_post .post_votes {
+      border-color: rgba(107, 78, 43, 0.2)
+    }
+
+    .game_comments_widget .community_post .post_votes .vote_btn:hover {
+      background: rgba(107, 78, 43, 0.05)
+    }
+
+    .game_comments_widget .community_post .post_footer .vote_btn {
+      border-color: rgba(107, 78, 43, 0.5)
+    }
+
+    .game_comments_widget .community_post .post_footer .vote_btn span {
+      color: inherit
+    }
+
+    .game_comments_widget .community_post .post_footer .vote_btn:hover,
+    .game_comments_widget .community_post .post_footer .vote_btn.voted {
+      background-color: #1d8883;
+      color: #ffffff;
+      text-shadow: 0 1px 0px #339e99;
+      border-color: #1d8883
+    }
+
+    .game_comments_widget .form .redactor-box,
+    .game_comments_widget .form .click_input,
+    .game_comments_widget .form .forms_markdown_input_widget {
+      border-color: rgba(107, 78, 43, 0.5);
+      background: transparent
+    }
+
+    .game_comments_widget .form .redactor-layer,
+    .game_comments_widget .form .redactor-toolbar,
+    .game_comments_widget .form .click_input,
+    .game_comments_widget .form .forms_markdown_input_widget {
+      background: rgba(226, 233, 214, 0)
+    }
+
+    .game_comments_widget .form .forms_markdown_input_widget .markdown_toolbar button {
+      color: inherit;
+      opacity: 0.6
+    }
+
+    .game_comments_widget .form .forms_markdown_input_widget .markdown_toolbar button:hover,
+    .game_comments_widget .form .forms_markdown_input_widget .markdown_toolbar button:active {
+      opacity: 1;
+      background-color: #1d8883 !important;
+      color: #ffffff !important;
+      text-shadow: 0 1px 0px #339e99 !important
+    }
+
+    .game_comments_widget .form .forms_markdown_input_widget .markdown_toolbar,
+    .game_comments_widget .form .forms_markdown_input_widget li {
+      border-color: rgba(107, 78, 43, 0.5)
+    }
+
+    .game_comments_widget .form textarea {
+      border-color: rgba(107, 78, 43, 0.5);
+      background: rgba(226, 233, 214, 0);
+      color: inherit
+    }
+
+    .game_comments_widget .form .redactor-toolbar {
+      border-color: rgba(107, 78, 43, 0.5)
+    }
+
+    .game_comments_widget .hint {
+      color: rgba(107, 78, 43, 0.5)
+    }
+
+    .game_community_preview_widget .community_topic_row .topic_tag {
+      background-color: #b2c694
+    }
+
+    .footer .svgicon,
+    .view_game_page .more_information_toggle .svgicon {
+      fill: #6b4e2b !important
+    }
+  </style>
+  <link rel="stylesheet" href="./assets/css" type="text/css">
+</head>
+<body data-page_name="view_game"
+  class="has_site_header embedded_game locale_en game_layout_widget layout_widget no_theme_toggle responsive">
+  <div id="wrapper" class="main wrapper">
+    <div class="inner_column size_large" id="inner_column" style="min-height: 825px; width: 960px; max-width: 960px;">
+      <div class="header has_image align_center" id="header"><img src="./assets/zlkvUa.png" alt="Kraft &amp; Slash"></div>
+      <div class="text-center">
+        <a href="https://www.w3schools.com" target="_blank" style="text-decoration: none; color: inherit;"><h1 class="permanent-marker-regular">Twitter</h1></a>
+        <a href="https://www.w3schools.com" target="_blank" style="text-decoration: none; color: inherit;"><h1 class="permanent-marker-regular">Telegram</h1></a>
+        <a href="https://pump.fun/board" target="_blank" style="text-decoration: none; color: inherit;"><h1 class="permanent-marker-regular">Pumpfun</h1></a>
+      </div>
+      <div class="text-center">
+        <h1 class="ubuntu-bold-italic">Contract address: xxxxxxxxxxxxxxxxxxxxxxxx</h1>
+      </div>
+      <div class="view_html_game_page view_game_page page_widget base_widget buy_on_top ready" id="view_html_game_7574429">
+        <div class="html_embed_widget base_widget embed_wrapper" id="html_embed_2935048">
+          <div class="game_frame game_loaded" data-width="960" data-height="586" style="width: 960px; height: 586px">
+            <iframe frameborder="0" allowfullscreen="true" src="https://html-classic.itch.zone/html/4552916/index.html"
+              allowtransparency="true" webkitallowfullscreen="true" mozallowfullscreen="true" msallowfullscreen="true"
+              scrolling="no" id="game_drop"
+              allow="autoplay; fullscreen *; geolocation; microphone; camera; midi; monetization; xr-spatial-tracking; gamepad; gyroscope; accelerometer; xr; cross-origin-isolated"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
